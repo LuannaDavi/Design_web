@@ -3,43 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 09: Agenda de Contatos</title>
+    <title>Aula 10: Orientação a Objetos</title>
 </head>
 <body>
-    <h1>Meus Amigos</h1>
-    <hr/>
-    <form action="#" id="cadastro" method="post">
-        <table>
-            <tr>
-                <td>Nome</td>
-                <td>
-                    <input type="text" required name="nome" minlength="3"/>
-                </td>
-            </tr>
-            <tr>
-                <td>Data de Nascimento</td>
-                <td>
-                    <input type="date" name="nasc"/>
-                </td>
-            </tr>
-            <tr>
-                <td>WhatsApp</td>
-                <td>
-                    <input type="tel" name="whatsapp"/>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <input type="submit" value="Adicionar">
-                    <input type="reset">
-                </td>
-            </tr>
-        </table>
-    </form>
-    <hr/>
-    <ul id="lista">
-        <li>Lista Vazia</li>
-    </ul>
-    <script src="./js/app2.js" defer></script>
+    <h3>Data:09/10/2026</h3>
+    <table border = "2px">
+        <tr>
+            <th>Cachorro</th>
+            <th>Ações</th>
+        </tr>
+        <tr>
+            <td>Balu</td>
+            <td>
+                <button onclick = "balu.latir();">Latir</button>
+                <button onclick = "balu.comer(0.5);">Comer</button>
+                <button onclick = "balu.cagar(0.3);">Cagar</button>
+                <button onclick = "balu.saudar();">Saudar</button>
+            </td>
+        </tr>
+    </table>
+    <script src = "./js/app1.js"></script>
 </body>
 </html>

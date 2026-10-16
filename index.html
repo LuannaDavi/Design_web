@@ -3,44 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 10: Orientação a Objetos</title>
+    <title>Aula 11: Objetos Internos</title>
 </head>
 <body><center>
-    <h3>Data:09/10/2026</h3>
-    <table border = "2px">
-        <tr>
-            <th>Cachorro</th>
-            <th>Ações</th>
-        </tr>
-        <tr>
-            <td>Balu</td>
-            <td>
-                <button onclick = "balu.falar();">Falar</button>
-                <button onclick = "balu.comer(0.5);">Comer</button>
-                <button onclick = "balu.cagar(0.3);">Cagar</button>
-                <button onclick = "balu.saudar();">Saudar</button>
-            </td>
-        </tr>
-        <tr>
-            <td>Mel</td>
-            <td>
-                <button onclick = "mel.falar();">Falar</button>
-                <button onclick = "mel.comer(0.5);">Comer</button>
-                <button onclick = "mel.cagar(0.3);">Cagar</button>
-                <button onclick = "mel.saudar();">Saudar</button>
-            </td>
-        </tr>
-        <tr>
-            <td>Leleco</td>
-            <td>
-                <button onclick = "leleco.falar();">Falar</button>
-                <button onclick = "leleco.comer(0.05);">Comer</button>
-                <button onclick = "leleco.cagar(0.1);">Cagar</button>
-                <button onclick = "leleco.saudar();">Saudar</button>
-            </td>
-        </tr>
-    </table>
-    <script src = "./js/app2.js"></script>
+    <h3>Data:16/10/2026</h3>
+    <form id ="formulario" action="#" method = "post">
+        <div>
+            <textarea name="texto" required
+                placeholder="Digite um post"></textarea>
+        </div>
+        <input type="submit" value="Extrair Tags">
+    </form>
+    <div id = "tags">
+        Não há tags no texto
+    </div>
+    <script src = "./js/app1.js" defer></script>
 </center>
 </body>
 </html>
